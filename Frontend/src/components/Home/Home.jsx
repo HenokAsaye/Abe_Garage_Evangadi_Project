@@ -160,8 +160,70 @@ const Home = () => {
 
         </div>
 
+            {/* marketing page */}
+            <div className='flex flex-col md:flex-row gap-4 md:gap-10 w-full items-center justify-center mt-10 mb-10 md:pl-35 pr-35'>
+                <div className='w-1/2 gap-10'>
+                    <div>
+                        <span className='font-bold text-xl md:text-3xl '>Why Choose Us</span>
+                        <span className='inline-block ml-5 bg-red-500 h-[2px] w-16'></span> 
+                        <p className='text-sm text-gray-700'>Bring to the table win-win surviaval stratagies to insure proactive domination.
+                            At the end of the day,going forward, a new normal that has evolved from
+                            generation heading towards.</p>
+                    </div>
+                    <div>
+                        <div className='flex flex-col gap-4'>
+                            <div className='relative flex gap-2'>
+                                <img src={seven} alt="" />
+                                <span className='p-3 '>Certified Expert Mechanics</span>
+                                <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
+                            </div>
+                            <div className='relative flex gap-2'>
+                                <img src={seven} alt="" />
+                                <span className='p-3 '>Certified Expert Mechanics</span>
+                                <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
+                            </div>
+                            <div className='relative flex gap-2'>
+                                <img src={seven} alt="" />
+                                <span className='p-3 '>Certified Expert Mechanics</span>
+                                <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
+                            </div>
+                            <div className='relative flex gap-2'>
+                                <img src={seven} alt="" />
+                                <span className='p-3 '>Certified Expert Mechanics</span>
+                                <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex flex-col gap-10'>
+                    <div>
+                        <span className='font-bold text-xl md:text-3xl '>Additional Services</span>
+                        <span className='inline-block ml-5 bg-red-500 h-[2px] w-16'></span> 
+                    </div>
+                    <div className='flex gap-10  '>
+                        <div>
+                            <img src={oldies} alt="" />
+                        </div>
+                        <div>
+                            <ul className='list-disc text-gray-600'>
+                                <li >General Auto Repair & Maintenance </li>
+                                <li>Transmission Repair & Replacement </li>
+                                <li>Tire Repair and Replacement </li>
+                                <li>State Emissions Inspection </li>
+                                <li>Break Job / Break Services </li>
+                                <li>Electrical Diagnostics </li>
+                                <li>Fuel System Repairs </li>
+                                <li>Starting and Charging Repair </li>
+                                <li>Steering and Suspension Work </li>
+                                <li>Emission Repair Facility </li>
+                                <li>Wheel Alignment </li>
+                                <li>Computer Diagaonstic Testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-
+            </div>
     </div>
 
   )
