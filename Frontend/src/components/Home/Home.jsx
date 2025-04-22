@@ -2,6 +2,7 @@ import React from 'react'
 import homeEngine from "../../assets/home-engine.jpg"
 import aboutPage from "../../assets/about-us.png"
 import aboutPage2 from "../../assets/about-us1.png"
+import {Link} from "react-router-dom"
 import  one from "../../assets/1.png"
 import two from "../../assets/2.png"
 import three from "../../assets/3.png"
@@ -81,7 +82,7 @@ const Home = () => {
                             <span className='text-red-500'>READ MORE +</span>
                             <img  clasName="mb-10 py-10" src={one} alt="" /> 
                         </div>
-                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-900'></span>
+                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-800'></span>
                     </div>
                     <div className='bg-white w-[300px] h-[150px] flex flex-col justify-around px-2 scroll-py-40 hover:scale-110 relative group hover:cursor-pointer' > 
                         <div>
@@ -90,9 +91,9 @@ const Home = () => {
                         </div>
                         <div className='flex justify-between'>
                             <span className='text-red-500'>READ MORE +</span>
-                            <img className='' src={one} alt="" />
+                            <img className='' src={two} alt="" />
                         </div>
-                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-900'></span>
+                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-800'></span>
                     </div>
                     <div className='bg-white w-[300px] h-[150px] flex flex-col gap-2 justify-around px-2 scroll-py-40 hover:scale-110 relative group hover:cursor-pointer' >
                         <div>
@@ -101,9 +102,9 @@ const Home = () => {
                         </div>
                         <div className='flex justify-between'>
                             <span className='text-red-500'>READ MORE +</span>
-                            <img src={one} alt="" />
+                            <img src={three} alt="" />
                         </div>
-                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-900'></span>
+                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-800'></span>
                     </div>
                     <div className='bg-white w-[300px] h-[150px] flex flex-col gap-2 justify-around px-2 scroll-py-40 hover:scale-110 relative group hover:cursor-pointer' >
                         <div>
@@ -113,9 +114,9 @@ const Home = () => {
 
                         <div className='flex justify-between'>
                             <span className='text-red-500'>READ MORE +</span>
-                            <img src={one} alt="" />
+                            <img src={four} alt="" />
                         </div>
-                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-900'></span>
+                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-800'></span>
                     </div>
                     <div className='bg-white w-[300px] h-[150px] flex flex-col gap-2 justify-around px-2 scroll-py-40 hover:scale-110 relative group hover:cursor-pointer' >
                         <div>
@@ -124,9 +125,9 @@ const Home = () => {
                         </div>
                         <div className='flex justify-between'>
                             <span className='text-red-500'>READ MORE +</span>
-                            <img src={one} alt="" />
+                            <img src={five} alt="" />
                         </div>
-                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-900'></span>
+                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-800'></span>
                     </div>
                     <div className='bg-white w-[300px] h-[150px] flex flex-col gap-2 justify-around px-2 scroll-py-40 hover:scale-110 relative group hover:cursor-pointer' >
                         <div>
@@ -135,9 +136,9 @@ const Home = () => {
                         </div>
                         <div className='flex justify-between'>
                             <span className='text-red-500 text-[15px]'>READ MORE +</span>
-                            <img  src={one} alt="" />
+                            <img  src={six} alt="" />
                         </div>
-                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-900'></span>
+                        <span className=' absolute left-0 bottom-0 w-full bg-red-500 h-[3px] group-hover:bg-blue-800'></span>
                     </div>
                 </div>
             </div>
@@ -179,17 +180,17 @@ const Home = () => {
                                 <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
                             </div>
                             <div className='relative flex gap-2'>
-                                <img src={seven} alt="" />
+                                <img src={eight} alt="" />
                                 <span className='p-3 '>Certified Expert Mechanics</span>
                                 <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
                             </div>
                             <div className='relative flex gap-2'>
-                                <img src={seven} alt="" />
+                                <img src={nine} alt="" />
                                 <span className='p-3 '>Certified Expert Mechanics</span>
                                 <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
                             </div>
                             <div className='relative flex gap-2'>
-                                <img src={seven} alt="" />
+                                <img src={ten} alt="" />
                                 <span className='p-3 '>Certified Expert Mechanics</span>
                                 <span className='absolute bg-gray-500 h-px w-3/4 bottom-0 left-0'></span>
                             </div>
@@ -246,6 +247,25 @@ const Home = () => {
             </div>
         </div>
 
+        {/* schedule appointment */}
+        <div className='w-[870px] h-[130px] ml-[250px] my-10 mb-20 bg-red-600'>
+          <div className='flex gap-9'>
+            <div className='font-bold text-white flex flex-col pt-8 pl-9'>
+              <span className='text-2xl'>Schedule Your Appointment Today</span>
+              <span className='text-sm'>Your automotive Repair & Maintainace service specialist</span>
+            </div>
+            <div className='pt-8 flex'>
+              <span className='font-bold text-3xl text-white'>1800.358.2340</span>
+              <Link className=' group hover:scale-110 ease-out transition-all ml-7 w-[160px]  bg-red-50 text-sm flex justify-center items-center h-14 -mt-2'>
+                <span className='font-bold -ml-5'> CONTACT US </span>
+                <div className=' pl-3 text-[17px] '>
+                  <IoArrowForwardOutline className=''/>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      
         
     </div>
 
