@@ -3,6 +3,19 @@ import homeEngine from "../../assets/home-engine.jpg"
 import aboutPage from "../../assets/about-us.png"
 import aboutPage2 from "../../assets/about-us1.png"
 import  one from "../../assets/1.png"
+import two from "../../assets/2.png"
+import three from "../../assets/3.png"
+import four from "../../assets/4.png"
+import five from "../../assets/5.png"
+import six from "../../assets/6.png"
+import seven from "../../assets/7.png"
+import eight from "../../assets/8.png"
+import nine from "../../assets/9.png"
+import ten from "../../assets/10.png"
+import radar from "../../assets/radar.png"
+import oldies from "../../assets/oldies.png"
+import { FaPlayCircle } from "react-icons/fa";
+import { IoArrowForwardOutline } from "react-icons/io5";
 
 const Home = () => {
   return (
@@ -130,6 +143,20 @@ const Home = () => {
         {/* ////// Our_Service_end Section ///// */}
 
         <div>
+            {/* Quality service section */}
+            <div className='flex flex-col md:flex-row w-full'>
+                <div className='w-1/2 bg-red-600 flex-col items-end justify-center pl-50 pt-20'>
+                    <h2 className='text-white font-bold text-2xl md:text-3xl mb-10'>Quality Service And customer Satisfaction !!</h2>
+                    <p className='text-white text-sm'>
+                        We utlize the most recent symtomatic gear to ensur your vechile is fixed or adjusted appropriatley and in an opportune manner.
+                        We are an individual from Proffesional Auto servoce, a first classs excution of arrange, where free assistance offices share objective
+                        of being world-class car adminstration focuses.
+                    </p>
+                </div>
+                <div className='w-1/2 px-0'>
+                    <img className='object-cover w-full' src={radar} alt="time" />
+                </div>
+            </div>
 
         </div>
 
